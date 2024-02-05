@@ -16,7 +16,7 @@ Once the model generates a prediction, Vision relays it back to the app, which p
 These results are presented in a string format including the two most likely predictions made by the trained model, 
 along with a confidence score for each percentage.
 
-Links for all specific actions below:
+
 
 [Vision documentation]: https://developer.apple.com/documentation/vision
 [Core ML documentation]: https://developer.apple.com/documentation/coreml
