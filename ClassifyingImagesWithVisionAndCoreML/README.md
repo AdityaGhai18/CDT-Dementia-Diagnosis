@@ -16,31 +16,30 @@ Once the model generates a prediction, Vision relays it back to the app, which p
 These results are presented in a string format including the two most likely predictions made by the trained model, 
 along with a confidence score for each percentage.
 
-
-
-[Vision documentation]: https://developer.apple.com/documentation/vision
-[Core ML documentation]: https://developer.apple.com/documentation/coreml
-[Classifying Images for Categorization and Search]:
+Useful Documentation and project related links:
+Vision documentation: https://developer.apple.com/documentation/vision
+Core ML documentation: https://developer.apple.com/documentation/coreml
+Classifying Images for Categorization and Search:
 https://developer.apple.com/documentation/vision/classifying_images_for_categorization_and_search
-[VNClassifyImageRequest]: https://developer.apple.com/documentation/vision/vnclassifyimagerequest
-[Create ML]: https://developer.apple.com/documentation/createml
-[Creating an Image Classifier Model]: 
+VNClassifyImageRequest: https://developer.apple.com/documentation/vision/vnclassifyimagerequest
+Create ML: https://developer.apple.com/documentation/createml
+Creating an Image Classifier Model: 
 https://developer.apple.com/documentation/createml/creating-an-image-classifier-model
-[MLModel]: https://developer.apple.com/documentation/coreml/mlmodel
-[VNCoreMLModel]: https://developer.apple.com/documentation/vision/vncoremlmodel
-[VNCoreMLRequest]: https://developer.apple.com/documentation/vision/vncoremlrequest
-[imageCropAndScaleOption]: 
+MLModel: https://developer.apple.com/documentation/coreml/mlmodel
+VNCoreMLModel: https://developer.apple.com/documentation/vision/vncoremlmodel
+VNCoreMLRequest: https://developer.apple.com/documentation/vision/vncoremlrequest
+imageCropAndScaleOption: 
 https://developer.apple.com/documentation/vision/vncoremlrequest/2890144-imagecropandscaleoption
-[centerCrop]: https://developer.apple.com/documentation/vision/vnimagecropandscaleoption/centercrop
-[makePredictions]: x-source-tag://makePredictions
-[VNImageRequestHandler]: https://developer.apple.com/documentation/vision/vnimagerequesthandler
-[CGImagePropertyOrientation]: https://developer.apple.com/documentation/imageio/cgimagepropertyorientation
-[VNRequest]: https://developer.apple.com/documentation/vision/vnrequest
-[VNImageRequestHandler.perform]: https://developer.apple.com/documentation/vision/vnimagerequesthandler/2880297-perform
-[visionRequestHandler]: x-source-tag://visionRequestHandler
-[VNRequest.results]: https://developer.apple.com/documentation/vision/vnrequest/2867238-results
-[VNClassificationObservation]: https://developer.apple.com/documentation/vision/vnclassificationobservation
-[Prediction]: x-source-tag://Prediction
-[imagePredictionHandler]: x-source-tag://imagePredictionHandler
-[updatePredictionLabel]: x-source-tag://updatePredictionLabel
-[project tutorial]: https://developer.apple.com/documentation/vision/classifying_images_with_vision_and_core_ml
+centerCrop: https://developer.apple.com/documentation/vision/vnimagecropandscaleoption/centercrop
+makePredictions: x-source-tag://makePredictions
+VNImageRequestHandler: https://developer.apple.com/documentation/vision/vnimagerequesthandler
+CGImagePropertyOrientation: https://developer.apple.com/documentation/imageio/cgimagepropertyorientation
+VNRequest: https://developer.apple.com/documentation/vision/vnrequest
+VNImageRequestHandler.perform: https://developer.apple.com/documentation/vision/vnimagerequesthandler/2880297-perform
+visionRequestHandler: x-source-tag://visionRequestHandler
+VNRequest.results: https://developer.apple.com/documentation/vision/vnrequest/2867238-results
+VNClassificationObservation: https://developer.apple.com/documentation/vision/vnclassificationobservation
+Prediction: x-source-tag://Prediction
+imagePredictionHandler: x-source-tag://imagePredictionHandler
+updatePredictionLabel: x-source-tag://updatePredictionLabel
+project tutorial: https://developer.apple.com/documentation/vision/classifying_images_with_vision_and_core_ml
