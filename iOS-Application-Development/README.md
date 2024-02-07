@@ -1,16 +1,15 @@
 # Apple iOS Development on Clock Drawing Test Dementia Diagnosis Application
 
+## Overview
 Orientations of submitted photos using the Vision framework and classification of the corresponding stage of 
 dementia and cognitive decline with a Core ML model.
-
-## Overview
 The minimal viable product application utilises a MobileNet Model (Condensed Convolutional Neural Network) 
 that identifies the stage of dementia by associating the Clock Drawing Test with a score from 0 to 5, 
 where 5 represents a healthy brain and a 0 represents a major need of medical attention. The MobileNet model has been trained on 12,000 images out of 40,000 total labelled clock drawing test images from an NHATS dataset. 
 The Dataset from National Health Aging Trends Study had been scored by qualified physicians and was used 
 as the basis of this project.
 
-## Applicaion Flow
+## Application Flow
 Each time a user selects a photo from the library or takes a photo of their clock drawing test with a camera,
 the app passes it to a Vision image classification request.
 Vision resizes and crops the photo to meet the MobileNet model's constraints of image input,
